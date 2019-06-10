@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:background="#EEEEEE">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/gicon"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:background="#FFFFFF"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="password"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Login"
+            android:layout_marginLeft="75dp"
+            android:background="#F44336"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/registerlink"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Dont have An Account? Register Here"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
